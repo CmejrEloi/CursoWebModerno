@@ -7,4 +7,4 @@ console.log(template)
 console.log(`1 + 1 = ${1 + 1}`)
 
 const up = s => s.toUpperCase()
-console.log(`EI... ${up('Cuidado')}`)
+console.log(`EI... ${up('Cuidado')}`);

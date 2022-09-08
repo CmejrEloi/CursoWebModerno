@@ -17,4 +17,4 @@ let subtracao = (a, b) => a- b
 console.log(subtracao(3,1))
 
 let imprimir = a => console.log(a)
-imprimir(8)
+imprimir(8);

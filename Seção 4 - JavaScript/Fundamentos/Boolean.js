@@ -25,4 +25,4 @@ console.log(!!undefined)
 console.log(!!(isAtivo = false))
 
 console.log('Pra finalizar...')
-console.log(!!('' || null || ' '))
+console.log(!!('' || null || ' '));

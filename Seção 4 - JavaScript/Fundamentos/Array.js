@@ -18,5 +18,5 @@ console.log(valores)
 
 //Excluido um indice do Array
 delete valores[4]
-console.log(valores)
+console.log(valores);
 

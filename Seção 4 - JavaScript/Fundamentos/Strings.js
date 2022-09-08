@@ -19,7 +19,7 @@ console.log(escola.concat('!!!'))
 console.log(escola.replace(1, '&'))
 
 //Split - Separa uma String a partir do caractere informado
-console.log('Claudio, Manuel, ELoi, Junior'.split(','))
+console.log('Claudio, Manuel, ELoi, Junior'.split(','));
 
 //length devolve a quantidade de caracteres
 //console.log(escola.length)
