@@ -1,0 +1,13 @@
+const prod1 = {}
+prod1.nome = "Moto G60";
+prod1.preco = 2800.99
+prod1['Desconto'] = 0.39
+
+console.log(prod1)
+
+const prod2 = {
+    nome: 'Carro 0KM',
+    preco: 89000.00
+}
+
+console.log(prod2)
