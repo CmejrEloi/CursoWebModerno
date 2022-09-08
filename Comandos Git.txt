@@ -1,0 +1,23 @@
+https://github.com/CmejrEloi/CursoWebModerno.git
+
+-- Vinculando usuário
+	git config --global user.name "Fulano de Tal"
+	git config --global user.email fulanodetal@exemplo.br
+	
+git pull
+puxa os arquivos do repositório
+
+git add --all (ou botão direito > stage)
+prepara os arquivos para o commit
+
+git status
+verifica o estado dos arquivos
+
+git reset arquivo
+reseta o status do arquivo,
+
+git commit -m "mensagem" (ou aquela caixa de diálogo do vsc)
+cria um commit com os arquivos que estão "staged"
+
+git push
+manda pro repositório os commits locais
