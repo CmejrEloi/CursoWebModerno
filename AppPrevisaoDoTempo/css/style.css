@@ -20,6 +20,7 @@ body{
 .container{
     background: #5c54ed;
     box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+    border-radius: 10px;
     padding: 2rem;
     color: #fdfdfd;
     border: 1rem;
@@ -77,6 +78,12 @@ body{
 #country{
     height: 20px;
 }
+
+#description{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
 #description-container{
     display: flex;
     justify-content: center;
@@ -89,7 +96,7 @@ body{
     align-items: center;
 }
 
-#details-container #umidity{
+#details-container #humidity{
     border-right: 1px solid #fff;
     margin: 0.6rem;
     padding: 0.6rem;
