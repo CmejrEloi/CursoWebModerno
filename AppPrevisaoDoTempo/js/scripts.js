@@ -31,7 +31,7 @@ const showWeatherData = async (city) =>{
     weatherIconElement.setAttribute('src', `http://openweathermap.org/img/wn/${data.weather[0].icon}.png`);
     countryElement.setAttribute('src', urlCountryApi + data.sys.country);
     humidityElement.innerText = `${data.main.humidity}%`;
-    windElement.innerText = `${data.wind.speed} KM/h`
+    windElement.innerText = `${data.wind.speed} KM/h`;
 
     weatherContainer.classList.remove("hide")
 }
