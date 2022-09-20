@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font: Helvetica;
@@ -6,13 +6,13 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-image: url("../img/a0278b8374288991400b9029173e7139.jpg");
     background-position: center;
     background-size: cover;
 }
 
-button{
+button {
     background-color: #fdfdfd;
     color: #102f5d;
     color: #102f5d;
@@ -24,12 +24,13 @@ button{
     align-items: center;
     transition: 0.4s;
 }
-button:hover{
+
+button:hover {
     background-color: #102f5d;
     color: #fff;
 }
 
-button:hover > i{
+button:hover>i {
     color: #fff;
 }
 
@@ -38,6 +39,120 @@ button i {
     font-weight: bold;
     pointer-events: none;
 }
-input, select{
+
+input,
+select {
     padding: 0.25rem 0.5rem;
+}
+
+.hide {
+    display: none;
+}
+
+/* TO-DO header */
+.todo-container {
+    max-width: 450px;
+    margin: 8rem auto;
+    background-color: #fdfdfd;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+
+.todo-container header {
+    text-align: center;
+    padding: 0 1rem 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+/* TO-DO FORM*/
+#todo-form,
+#edit-form {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+#todo-form p,
+#edit-form p {
+    margin-bottom: .5rem;
+    font-weight: bold;
+}
+
+.form-control {
+    display: flex;
+}
+
+.form-control input {
+    margin-right: .3rem;
+}
+
+#cancel-edit-btn {
+    margin-top: 1rem;
+}
+
+/* TollBar */
+#toolbar {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+
+#toolbar h4 {
+    margin-bottom: .5rem;
+}
+
+#search {
+    border-right: 1px solid #ccc;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+#search form {
+    display: flex;
+}
+
+#search input {
+    width: 100%;
+    margin-right: .3rem;
+}
+
+#filer{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+#filer select{
+    flex: 1;
+}
+
+/* TO-DO LIST */
+.todo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:  1rem;
+    border-bottom: 1px solid #ccc;
+    transition: .3s;
+}
+
+.todo h3{
+    flex: 1;
+    font-size: .9rem;
+}
+
+.todo button{
+    margin-right: .4rem;
+}
+
+.done{
+    background-color: #395169;
+}
+
+.done h3{
+    color: #fff;
+    text-decoration: line-through;
+    font-style: italic;
 }
